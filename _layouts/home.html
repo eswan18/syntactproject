@@ -1,0 +1,38 @@
+---
+layout: default
+---
+
+<div class="home">
+  {%- if page.title -%}
+    <h1 class="page-heading">{{ page.title }}</h1>
+  {%- endif -%}
+
+  {{ content }}
+
+  {%- if site.posts.size > 0 -%}
+        <br>
+        <h1 style="font-size:4em;">The Syntact Project</h1>
+        <h3><em>Exploring the Synapses that Form Our World</em></h3>
+        <br><br>
+    <ul class="post-list">
+      {%- for post in site.posts -%}
+      <li style="border-top: 1px solid #CCCCCC;">
+        <br>
+        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+        <span class="post-meta">{{ post.date | date: date_format }}</span>
+        <h3>
+          {% if post.podcast %}
+          Podcast:
+          {% endif %}<a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+          <em>{{ post.author | escape }}</em>
+        </h3>
+        <span class="post-excerpt">{{ post.excerpt }}</span>
+        <a href="{{ post.url | relative_url }}">See more</a>
+      </li>
+      {%- endfor -%}
+    </ul>
+
+    <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
+  {%- endif -%}
+
+</div>

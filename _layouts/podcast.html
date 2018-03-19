@@ -1,0 +1,36 @@
+---
+layout: default
+---
+
+<div class="home">
+  {%- if page.title -%}
+    <br>
+    <h1 class="page-heading">{{ page.title }}</h1>
+    <br>
+  {%- endif -%}
+
+  {{ content }}
+
+  {%- if site.posts.size > 0 -%}
+    <ul class="post-list">
+      {% assign podcasts = site.posts | where: "podcast", true %}
+      {%- for pod in podcasts -%}
+      <li style="border-top: 1px solid #CCCCCC;">
+        <br>
+        <center>
+        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+        <span class="post-meta">{{ pod.date | date: date_format }}</span>
+        <h3>
+          <a class="post-link" href="{{ pod.url | relative_url }}">{{ pod.title | escape }}</a>
+          </center>
+        </h3>
+        <span class="post-excerpt">{{ pod.excerpt }}</span>
+        <a href="{{ pod.url | relative_url }}">Read more</a>
+      </li>
+      {%- endfor -%}
+    </ul>
+
+    <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
+  {%- endif -%}
+
+</div>
