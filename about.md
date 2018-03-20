@@ -6,7 +6,7 @@ permalink: /about/
 
 ### The Project
 
-The Syntact Project was born from the desire to think about the nuances of the world from a bird’s eye view. In an era of 280 characters and reactionary hot takes, we aim to be a medium that encourages dialogue around trends, patterns, and the sort of pensiveness that can be hard to find in a landscape inundated with media.
+The Syntact Project was born from the belief that a nuanced understanding of the world is valuable, and ultimately, enjoyable. In an era of 280 characters and reactionary hot takes, we aim to be a medium that encourages dialogue around trends, patterns, and the sort of pensiveness that can be hard to find in a landscape inundated with media.
 
 Remember how your eyes lit up the last time you talked about your favorite college class? A personal project you got lost in? We want to be a community that fosters that kind of excitement – the sort you get when you explore something worth exploring.
 

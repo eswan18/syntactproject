@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-# Convert Jupyter notebook files (in _jupyter folder) to markdown files (in _posts folder).
+# Convert Jupyter notebook files (in jupyter folder) to markdown files (in _posts folder).
 #
 # Arguments: 
 # $1 filename (excluding extension)
@@ -19,7 +19,7 @@ filename=$datestr-$1
 foldername=$filename"_files"
 
 # Do the conversion.
-jupyter nbconvert ./_jupyter/$1.ipynb --to markdown --output-dir=./_posts --output=$filename
+jupyter nbconvert ./jupyter/$1.ipynb --to markdown --output-dir=./_posts --output=$filename
 
 # Move the images from the jupyter-generated folder to the images folder.
 echo "Moving images..."

@@ -1,13 +1,11 @@
 ---
 layout: post
 title:  "Web Speed Trends"
-date:   2018-03-18 00:00:00 -0400
+date:   2018-03-20
 author: Ethan Swan
 ---
 
 What is the meaning of life?
-This deep question has occupied the minds of history's greatest thinkers.
-
 While the last generation posited [42](https://www.independent.co.uk/life-style/history/42-the-answer-to-life-the-universe-and-everything-2205734.html) and considered the issue settled, I beg to differ.
 I am a millenial, and as such, the only things that I believe to be important are avocado toast and wifi speeds.
 Since data analysis on the former seems impractical, I recently put some time into answering a few questions about the latter using nothing but basic computer and statistics knowledge.
@@ -30,11 +28,12 @@ You might say that's fairly unscientific; I might say that I'm not giving up my 
 
 The following article has some code interspersed.
 If you're interested, take a look.
-If you're not, I promise that you won't miss out on anything by just skipping over it.
+Even if you don't know Python, the comments should help you follow along.
+If you're not interested, I promise that you won't miss out on anything by just skipping over it.
 
 
 ```python
-# Imports
+# Import the packages we're going to need.
 import sqlite3
 import numpy as np
 import pandas as pd
@@ -44,9 +43,10 @@ sns.set_style('darkgrid')
 import matplotlib.pyplot as plt
 %matplotlib inline
 from IPython.core.pylabtools import figsize
-# Pull in the data
+# Pull in the data, which is stored in a sqlite database.
 con = sqlite3.connect('data.db')
 speeds = pd.read_sql('SELECT * FROM data', con)
+# Rename the columns
 speeds.columns = ['download', 'timestamp', 'upload', 'ping']
 ```
 
@@ -167,7 +167,7 @@ speeds['timestamp'] = speeds['timestamp'] - pd.Timedelta(hours=5)
 
 
 ```python
-# Melt the data for plotting
+# Melt the data for plotting.
 melted = speeds.melt(id_vars=['timestamp'])
 melted.columns = ['timestamp', 'measure', 'value']
 melted['value'] = melted['value'].astype(np.float)
@@ -175,9 +175,9 @@ melted['value'] = melted['value'].astype(np.float)
 
 
 ```python
-# Keep only upload and download measurements
+# Keep only upload and download measurements.
 up_down_speeds = melted.query('measure in ["download", "upload"]')
-# Plot
+# Plot upload speed and download speed on one line graph.
 alt.Chart(up_down_speeds).mark_line().encode(
     x=alt.X('timestamp',
             axis=alt.Axis(title='Date',
@@ -189,7 +189,7 @@ alt.Chart(up_down_speeds).mark_line().encode(
 ```
 
 
-<div class="vega-embed" id="8e2c8dd8-c053-4d7e-8a19-abeefe94ab5b"></div>
+<div class="vega-embed" id="047d1c6d-e340-4b22-830f-a6b9d3356c50"></div>
 
 <style>
 .vega-embed svg, .vega-embed canvas {
@@ -206,7 +206,7 @@ alt.Chart(up_down_speeds).mark_line().encode(
 
 
 
-![png](/images/2018-03-18-web-speed-trends_7_2.png)
+![png](/images/2018-03-20-web-speed-trends_7_2.png)
 
 
 This data is indeed very noisy -- we see huge fluctuations, so much so that it's hard to make out a pattern. But we can learn a few things: download speed is almost always larger than upload speed, and download speed also looks to bounce around more dramatically than upload speed. This *bouncing around* quality is called variance, so we would say that download speed has high variance.
@@ -220,9 +220,9 @@ Let's take a look.
 ```python
 # Set the figure size larger.
 figsize(14, 7)
-# Create figure and side-by-side axes
+# Create figure and two side-by-side axes.
 fig, (ax1, ax2) = plt.subplots(ncols=2)
-# Draw two distplots, one for upload and one for download
+# Draw two distplots (histogram/density combo plots), one for upload and one for download.
 up_speeds = up_down_speeds.query('measure == "upload"')
 down_speeds = up_down_speeds.query('measure == "download"')
 g1 = sns.distplot(up_speeds['value'], ax=ax1)
@@ -236,7 +236,7 @@ g2.set_title('Distribution of Download Speeds');
 
 
 
-![png](/images/2018-03-18-web-speed-trends_9_1.png)
+![png](/images/2018-03-20-web-speed-trends_9_1.png)
 
 
 We see in the left plot that the vast majority of upload speeds are between 9 and about 9.75 megabits per second, thus the peak between 9 and 10 on the x-axis.
@@ -254,7 +254,7 @@ First, speeds by day of week:
 ```python
 # Make a copy of the data for this bit.
 time_speeds = up_down_speeds.copy()
-# Extract pieces of the timestamp
+# Extract pieces of the timestamp.
 time_speeds['weekday'] = time_speeds['timestamp'].dt.weekday_name
 time_speeds['hour'] = time_speeds['timestamp'].dt.hour
 time_speeds['minute'] = time_speeds['timestamp'].dt.minute
@@ -263,10 +263,13 @@ time_speeds = time_speeds.drop('timestamp', axis=1)
 
 
 ```python
+# Separate upload speeds from download speeds.
 up_time_speeds = time_speeds.query('measure == "upload"')
 down_time_speeds = time_speeds.query('measure == "download"')
 
+# Again, create two side-by-side plots.
 fig, ax = plt.subplots(ncols=2, figsize=(20, 10), sharey=False)
+# Create boxplots by day-of-week for upload and download speeds.
 g = sns.boxplot('weekday', 'value', data=up_time_speeds, ax=ax[0])
 g.set(title='Upload Speeds by Day of Week', xlabel='', ylabel='Speed (mbps)')
 g2 = sns.boxplot('weekday', 'value', data=down_time_speeds, ax=ax[1])
@@ -274,7 +277,7 @@ g2.set(title='Download Speeds by Day of Week', xlabel='', ylabel='Speed(mbps)');
 ```
 
 
-![png](/images/2018-03-18-web-speed-trends_13_0.png)
+![png](/images/2018-03-20-web-speed-trends_13_0.png)
 
 
 *n.b. The y-axis values are not the same.*
@@ -294,6 +297,7 @@ Let's take a look at speed by hour.
 
 
 ```python
+# Same as before, but with hour-of-day.
 fig, ax = plt.subplots(ncols=2, figsize=(20, 10), sharey=False)
 g = sns.boxplot('hour', 'value', data=up_time_speeds, ax=ax[0])
 g.set(title='Upload Speeds by Hour of the Day', ylabel='Speed (mbps)')
@@ -302,7 +306,7 @@ g2.set(title='Download Speeds by Hour of the Day', ylabel='Speed(mbps)');
 ```
 
 
-![png](/images/2018-03-18-web-speed-trends_15_0.png)
+![png](/images/2018-03-20-web-speed-trends_15_0.png)
 
 
 Ah, a pattern!
@@ -317,14 +321,16 @@ What happens if we look at both day and hour simultaneously? We'll do it for dow
 
 
 ```python
+# Now create just one large figure.
 fig, ax = plt.subplots(ncols=1, figsize=(20, 10))
+# And add a boxplot by day and by hour.
 g = sns.boxplot(x='weekday', y='value', hue='hour', data=down_time_speeds, ax=ax)
 g.set(title='Download Speeds Throughout the Week', xlabel='', ylabel='Speed(mbps)')
 ax.legend().set_visible(False)
 ```
 
 
-![png](/images/2018-03-18-web-speed-trends_17_0.png)
+![png](/images/2018-03-20-web-speed-trends_17_0.png)
 
 
 Whoa! There's a lot going on here. Luckily our newfound expertise in boxplots can help us digest this.
@@ -347,6 +353,7 @@ mod_down_speeds['timestamp'] = [pd.to_datetime(x) for x in timestamps]
 
 
 ```python
+# Create a chart of download speeds throughout the week.
 alt.Chart(mod_down_speeds).mark_line().encode(
     x=alt.X('timestamp:T',
             axis=alt.Axis(title='Weekday',
@@ -357,7 +364,7 @@ alt.Chart(mod_down_speeds).mark_line().encode(
 ```
 
 
-<div class="vega-embed" id="d40c56bf-c141-48c6-b174-8e082cdeb656"></div>
+<div class="vega-embed" id="02d679fd-47c5-4550-b28f-8fef3b3ac3e6"></div>
 
 <style>
 .vega-embed svg, .vega-embed canvas {
@@ -374,7 +381,7 @@ alt.Chart(mod_down_speeds).mark_line().encode(
 
 
 
-![png](/images/2018-03-18-web-speed-trends_20_2.png)
+![png](/images/2018-03-20-web-speed-trends_20_2.png)
 
 
 Okay, this a good start, but it looks pretty noisy.
@@ -384,15 +391,16 @@ This results in a graph that shows similar trends but without as much fluctuatio
 
 
 ```python
-# First do the groupby and aggreation in mod_down_speeds
+# First do the groupby and aggreation in mod_down_speeds.
 roll_down_speeds = mod_down_speeds.groupby('timestamp').mean()[['value']]
 roll_down_speeds['timestamp'] = roll_down_speeds.index
-# Then create a rolling average column
+# Then create a rolling average column.
 roll_down_speeds['mvg_value'] = roll_down_speeds['value'].rolling(window=5, center=True, min_periods=1).mean()
 ```
 
 
 ```python
+# Plot this moving average in the same manner as above.
 alt.Chart(roll_down_speeds).mark_line().encode(
     x=alt.X('timestamp:T',
             axis=alt.Axis(title='Weekday',
@@ -403,7 +411,7 @@ alt.Chart(roll_down_speeds).mark_line().encode(
 ```
 
 
-<div class="vega-embed" id="4e40b478-6ba7-4067-ba38-9280fc094e91"></div>
+<div class="vega-embed" id="a94b2490-372a-45b5-9dd8-cd9a01d7d426"></div>
 
 <style>
 .vega-embed svg, .vega-embed canvas {
@@ -420,7 +428,7 @@ alt.Chart(roll_down_speeds).mark_line().encode(
 
 
 
-![png](/images/2018-03-18-web-speed-trends_23_2.png)
+![png](/images/2018-03-20-web-speed-trends_23_2.png)
 
 
 This looks really helpful.
@@ -454,4 +462,4 @@ All in all, however, this is bad news for evening Netflixers. The worst time to 
 But while you might not be able to escape the weekday run on video content, it might be worth rearranging your weekends; even Saturday and Sunday have better internet speeds earlier in the day.
 Binge in the mornings! It's better than hitting the gym anyway.
 
-If you have ideas for further analysis of practical data, I would love to hear them. Find me on Twitter at [@eswan18](http://www.twitter.com/eswan18).
+The full analysis can be found at [https://github.com/eswan18/web_speed_trends](https://github.com/eswan18/web_speed_trends). If you have ideas for further analysis of practical data, I would love to hear them. Find me on Twitter at [@eswan18](http://www.twitter.com/eswan18).
