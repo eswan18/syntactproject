@@ -18,9 +18,9 @@ Welcome to the Project.
 
 |Ethan|Fernando|Matt|
 |---|---|---|
-|![Ethan](/images/ethan.gif)|![Fernando](/images/fernando.png)|![Matt](/images/matt.png)|
+|![Ethan](/images/ethan.gif)|![Fernando](/images/fernando.jpg)|![Matt](/images/matt.png)|
 |---|---|---|
-|Ethan is a data scientist based in Cincinnati, Ohio. He spends his free time coding, playing pickup sports, and listening to an expansive collection of podcasts.|Fernando is a reformed chemical engineer, now living in Texas. His hobbies include watching basketball, playing soccer, and talking way too loud.|Matt is disenchanted consultant who fled to Medellin, Columbia to escape corporate America. He has recently decided that it would be useful to know the language that everyone around him is speaking, and thus spends his time learning Spanish.|
+|Ethan is a data scientist based in Cincinnati, Ohio. He spends his free time coding, playing pickup sports, and listening to an expansive collection of podcasts.|Fernando studied chemical engineering, which consisted of distractedly browsing through unrelated Wikipedia pages while trying to interpret heat transfer equations. This left him ideally prepared to write about and distractedly discuss many unrelated topics while still being unable to interpret heat transfer equations.|Matt is disenchanted consultant who fled to Medellin, Columbia to escape corporate America. He has recently decided that it would be useful to know the language that everyone around him is speaking, and thus spends his time learning Spanish.|
 
 ### Contact
 If you are interested in contributing to the Syntact Project or providing feedback to us, get in touch with us at [syntactproject@gmail.com](syntactproject@gmail.com). We want to hear from you!
