@@ -4,6 +4,7 @@ title:  "A Spin on Genius"
 date:   2018-01-10
 author: Fernando Garcia
 categories: genius
+excerpt: "<p>Throughout history, discriminatory or prejudiced systems have often been supported by the message that certain people do not belong in or are not fit for certain positions in society. Often, it is only after individuals challenge and disprove this paradigm that we recognize it as an invalid assumption with no basis in fact or logic. Vivian Malone demonstrated that an African American can excel at the University of Alabama; Jeremy Lin exposed the petty stereotyping behind the idea that a Chinese-American Harvard graduate could not be an athletic attacker as an NBA point guard.</p>"
 ---
 
 <!--Had to hack this bit together in HTML to center side-by-side images-->
@@ -24,11 +25,14 @@ To put it simply, certain topics or fields of study scare potential students, wh
 
 To discredit the idea that certain concepts require special intellectual gifts to comprehend, let’s explore an esoteric concept in an esoteric field: the quantum physical property known as “spin.”  In high school and college chemistry classes, the topic is explained – or not explained – the same way: think of electrons spinning in a certain direction; the directions of the spin affect stability and magnetic properties. At the same time, students are told that the electrons aren’t really spinning – the term “spin” is a metaphor – but there is no need to know what they’re really doing, so long as we know the effects. By contrast, P.M. Sutter of the *Ask a Spaceman* podcast responds to the question “What is quantum spin?” with a direct answer that can be summed up in 4 sentences:
 
-1.     When a particle passes through a magnetic field, we observe it being deflected in one of two directions – let’s say the field is aligned so that they either go up or down – or staying straight.
-
-2.     A particle’s spin is a description of what direction and to what magnitude the particle is deflected by a magnetic field.
-
-3-4.  The particle is not spinning – but the term originates from the following: A charged macroscopic object (e.g., a electrically charged metal sphere) is deflected by a magnetic field when it is spinning, and the direction and strength of that deflection is determined by the direction and speed the sphere spins at.
+<!--More ugly custom formatting-->
+<p>
+<b>1.</b> When a particle passes through a magnetic field, we observe it being deflected in one of two directions – let’s say the field is aligned so that they either go up or down – or staying straight.
+<br><br>
+<b>2.</b> A particle’s spin is a description of what direction and to what magnitude the particle is deflected by a magnetic field.
+<br><br>
+<b>3-4.</b> The particle is not spinning – but the term originates from the following: A charged macroscopic object (e.g., a electrically charged metal sphere) is deflected by a magnetic field when it is spinning, and the direction and strength of that deflection is determined by the direction and speed the sphere spins at.
+    </p>
 
 Why is it important that quantum spin is simpler than many think? Chemistry teachers unconsciously erect barriers when they decline to dive into the true nature of quantum spin and assure students that there is no need to gain that understanding. The student’s brief encounters with the concept of spin then serve as a series of reminders that quantum physics is a field beyond his or her capability and not worth his or her time. *Scientific American* presented research suggesting that society’s treatment of certain fields of study reinforces inequalities among us, possibly because certain demographics – specifically women and minorities – have a subconscious aversion, unfortunately ingrained in them by society, to pursuing fields associated with genius-level brilliance.
 
