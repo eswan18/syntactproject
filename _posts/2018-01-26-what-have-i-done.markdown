@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "What Have I Done?"
-date:   2018-01-26 00:00:00 -0400
+date:   2018-01-26
 author: Matt Gillham
 categories: "Matt Goes to Columbia"
 ---
@@ -10,11 +10,11 @@ Tomorrow morning, I board my first one-way flight, to Medellín, Colombia. I am 
 
 Indeed, it will be groundbreaking, world-shattering epiphanies that I, the wise and traveled muse, will impart to you, mere earthling, through a course of these articles. Think Jack Kerouac. Or Henry David Thoreau. Or, more likely, I’ll be revealing an astounding level of my ignorance about the world to you; either way, I expect to learn a thing or two, and I’m hoping it to be rich fodder for discussion.
 <!--more-->
-I get it – I hear your skepticism as the astute and avid Syntact follower that you are – how does this sort of subjective experience fit within Syntact?
+I get it – I hear your skepticism as the astute and avid Syntact follower that you are – *how does this sort of subjective experience fit within Syntact?*
 
 Well, buster, living is subjective, and any objectivity results from some subjective act of research. It just so happens that my research process might be a little more dependent on my day-to-day than your average JSTOR article.
 
-There is, though, something essential about dealing with the subjective. While our experiences are unique, we are completely identical in having unique experiences. To put it oxymoronically, humans are objectively subjective. We each experience the world exclusively through our own eyes.
+There is, though, something essential about dealing with the subjective. While our experiences are unique, we are completely identical in having unique experiences. To put it oxymoronically, humans are *objectively subjective*. We each experience the world exclusively through our own eyes.
 
 My hope is that this intercontinental move, Syntact, and the series of articles that this post begins may inspire conversation outside of the day-to-day experiences I, and you, may be used to. We’ll see.
 
@@ -22,7 +22,7 @@ As an aside, it’s worth noting that I’m not sure what I’ll be doing in Col
 
 - I’ll be miserable in 4-5 months, according to any kind of Culture Shock timeline.
 - It’s a lot more difficult to make a decision than to live with a decision you already made.
-- Ser and Estar must be incredible literary tools.
+- *Ser* and *Estar* must be incredible literary tools.
 - There’s some sort of optimal point at which spending more time thinking about and researching a decision impedes your ability to choose.
 - Failing to learn Spanish would be an eternal damnation of small talk where I only know how to ask someone where they’re from and what they do.
 - An inundation of news isn’t exclusively the global norm.
