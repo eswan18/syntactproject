@@ -18,9 +18,9 @@ Welcome to the Project.
 
 |Ethan|Fernando|Matt|
 |---|---|---|
-|![Ethan](/images/ethan.gif)|![Fernando](/images/fernando.jpg)|![Matt](/images/matt.png)|
+|![Ethan](/images/ethan.gif)|![Fernando](/images/fernando.jpg)|![Matt](/images/matt.jpg)|
 |---|---|---|
-|Ethan is a data scientist based in Cincinnati, Ohio. He spends most of his free time coding or playing pickup sports. Ethan's primary interests are technology, economics, politics, and [coffee shops](http://ethanswan.com/coffee_shops) -- but he makes no promises of expertise in any field.|Fernando studied chemical engineering, which consisted of distractedly browsing through unrelated Wikipedia pages while trying to interpret heat transfer equations. This left him ideally prepared to write about and distractedly discuss many unrelated topics while still being unable to interpret heat transfer equations.|Matt is disenchanted consultant who fled to Medellin, Columbia to escape corporate America. He has recently decided that it would be useful to know the language that everyone around him is speaking, and thus spends his time learning Spanish.|
+|Ethan is a data scientist based in Cincinnati, Ohio. He spends most of his free time coding or playing pickup sports. Ethan's primary interests are technology, economics, politics, and [coffee shops](http://ethanswan.com/coffee_shops) -- but he makes no promises of expertise in any field.|Fernando studied chemical engineering, which consisted of distractedly browsing through unrelated Wikipedia pages while trying to interpret heat transfer equations. This left him ideally prepared to write about and distractedly discuss many unrelated topics while still being unable to interpret heat transfer equations.|Matt is a consultant who recently moved from the greatest state in the Union to Medellin, Colombia, hoping to bounce back from dropping Intro to Spanish 1 after a week and a half in college. His background is in economics, so he’s competent in finding where two lines intersect, but has been known to pontificate about a number of other things, some far too stereotypical for his disenchanted millennial aesthetic.|
 
 ### Contact
 If you are interested in contributing to the Syntact Project or providing feedback to us, get in touch with us at [syntactproject@gmail.com](syntactproject@gmail.com). We want to hear from you!
