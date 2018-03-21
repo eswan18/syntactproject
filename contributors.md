@@ -48,7 +48,9 @@ Saving this bit that I wrote before discovering Liquid does this for you.
         <br>
     {% endif %}
     <br>
-    <a href="/contributors/{{ contributor.name | replace: " ", "_"}}">Contributions by {{ contributor.shortname }}</a>
+    <a href="{{ contributor.url | relative_url }}">
+      Contributions by {{ contributor.shortname}}
+    </a>
     </div>
   {% endtablerow %}
 </tbody>
