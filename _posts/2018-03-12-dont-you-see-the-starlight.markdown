@@ -2,7 +2,8 @@
 layout: post
 title:  "Don't You See the Starlight, Starlight / Don't You Dream Impossible Things"
 date:   2018-03-12
-author: Fernando Garcia
+authors:
+- Fernando Garcia
 categories: space
 ---
 

@@ -2,7 +2,8 @@
 layout: post
 title:  "Web Speed Trends"
 date:   2018-03-20
-author: Ethan Swan
+authors:
+- Ethan Swan
 ---
 
 What is the meaning of life?

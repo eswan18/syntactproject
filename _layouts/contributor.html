@@ -1,0 +1,46 @@
+---
+layout: default
+---
+
+<div class="contributor">
+  {%- if page.title -%}
+    <br>
+    <h1 class="page-heading">{{ page.name }}</h1>
+    <br>
+  {%- endif -%}
+
+  {%- if page.image -%}
+  <center>
+      <img src="/images/{{ page.image }}" style="width: 20em;">
+  </center>
+  {%- endif -%}
+
+  {{ content }}
+
+  
+  <br><br>
+  <h1>Contributions by {{ page.shortname }}</h1>
+
+    <ul class="post-list">
+      {%- for post in site.posts -%}
+      {%- if post.authors contains page.name -%}
+          <li style="border-top: 1px solid #CCCCCC;">
+            <br>
+            <center>
+            {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+            <span class="post-meta">{{ post.date | date: date_format }}</span>
+            <h3>
+              {%- if post.podcast -%}
+                Podcast:
+              {%- endif -%}
+              <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+              </center>
+            </h3>
+            <span class="post-excerpt">{{ post.excerpt }}</span>
+            <a href="{{ post.url | relative_url }}">Read more</a>
+          </li>
+      {%- endif -%}
+      {%- endfor -%}
+    </ul>
+
+</div>

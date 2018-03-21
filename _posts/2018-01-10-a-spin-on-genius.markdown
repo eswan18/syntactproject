@@ -2,7 +2,8 @@
 layout: post
 title:  "A Spin on Genius"
 date:   2018-01-10
-author: Fernando Garcia
+authors:
+- Fernando Garcia
 categories: genius
 excerpt: "<p>Throughout history, discriminatory or prejudiced systems have often been supported by the message that certain people do not belong in or are not fit for certain positions in society. Often, it is only after individuals challenge and disprove this paradigm that we recognize it as an invalid assumption with no basis in fact or logic. Vivian Malone demonstrated that an African American can excel at the University of Alabama; Jeremy Lin exposed the petty stereotyping behind the idea that a Chinese-American Harvard graduate could not be an athletic attacker as an NBA point guard.</p>"
 ---

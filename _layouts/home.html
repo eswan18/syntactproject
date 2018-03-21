@@ -24,7 +24,8 @@ layout: default
           {% if post.podcast %}
           Podcast:
           {% endif %}<a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-          <em>{{ post.author | escape }}</em>
+        <em>{{ post.authors | array_to_sentence_string }}</em>
+
         </h3>
         <span class="post-excerpt">{{ post.excerpt }}</span>
         <a href="{{ post.url | relative_url }}">See more</a>

@@ -2,7 +2,8 @@
 layout: post
 title:  "Disciplines at an Intersection: Minimum Viable Infrastructure"
 date:   2018-03-01
-author: Andrew Petrisin
+authors:
+- Andrew Petrisin
 categories: infrastructure
 ---
 

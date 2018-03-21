@@ -2,7 +2,8 @@
 layout: post
 title:  "What Have I Done?"
 date:   2018-01-26
-author: Matt Gillham
+authors:
+- Matt Gillham
 categories: "Matt Goes to Columbia"
 ---
 

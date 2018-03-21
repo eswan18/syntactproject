@@ -36,6 +36,15 @@ defaults:
     path: "_posts/podcast"
   values:
     podcast: true
+- scope:
+    path: "_contributors"
+  values:
+    layout: contributor
+
+
+collections:
+  contributors:
+    output: true
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

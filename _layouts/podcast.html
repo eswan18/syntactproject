@@ -22,6 +22,7 @@ layout: default
         <span class="post-meta">{{ pod.date | date: date_format }}</span>
         <h3>
           <a class="post-link" href="{{ pod.url | relative_url }}">{{ pod.title | escape }}</a>
+          <em>{{ pod.authors | array_to_sentence_string }}</em>
           </center>
         </h3>
         <span class="post-excerpt">{{ pod.excerpt }}</span>

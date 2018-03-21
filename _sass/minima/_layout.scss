@@ -282,6 +282,14 @@
 /**
  * Contributors
  */
+.contributors table {
+  table-layout: fixed;
+}
+.contributors td {
+  vertical-align: top;
+  overflow: hidden;
+  text-overflow: wrap;
+}
 .contributor-pane {
   text-align: center;
 }
