@@ -1,0 +1,24 @@
+[
+    {
+        "name": "Fernando Garcia",
+        "image": "fernando.jpg"
+    },
+    {
+        "name": "Matt Gillham",
+        "image": "matt.png"
+    },
+    {
+        "name": "Greg Moore",
+        "image": "greg_moore.png"
+    },
+    {
+        "name": "Andrew Petrisin",
+        "image": "andrew_petrisin.png"
+    },
+    {
+        "name": "Ethan Swan",
+        "image": "ethan.gif",
+        "website": "http://ethanswan.com",
+        "twitter": "eswan18"
+    }
+]

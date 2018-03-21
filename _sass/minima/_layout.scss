@@ -275,3 +275,13 @@
   height: auto;
   width: auto;
 }
+.about table {
+  table-layout: fixed;
+}
+
+/**
+ * Contributors
+ */
+.contributor-pane {
+  text-align: center;
+}
