@@ -10,7 +10,7 @@ The Syntact Project was born from the belief that a nuanced understanding of the
 
 Remember how your eyes lit up the last time you talked about your favorite college class? A personal project you got lost in? We want to be a community that fosters that kind of excitement – the sort you get when you explore something worth exploring.
 
-We do hope this project encourages you to think deeply about the world we inhabit together. Have some thoughts you’d like to share? We'd love to hear from you.
+We hope this project encourages you to think deeply about the world we inhabit together. Have some thoughts you’d like to share? We'd love to hear from you.
 
 Welcome to the Project.
 
