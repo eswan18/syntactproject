@@ -15,7 +15,7 @@ layout: default
         <h3><em>Exploring the Synapses that Form Our World</em></h3>
         <br><br>
     <ul class="post-list">
-      {%- for post in site.posts -%}
+      {%- for post in paginator.posts -%}
       <li style="border-top: 1px solid #CCCCCC;">
         <br>
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
@@ -33,6 +33,9 @@ layout: default
       {%- endfor -%}
     </ul>
 
+	{% include pagination.html %}
+    
+	<br>
     <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
   {%- endif -%}
 

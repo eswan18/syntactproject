@@ -155,6 +155,11 @@
   width:         calc(40% - (#{$spacing-unit} / 2));
 }
 
+.pagination {
+  text-align: center;
+  width: 100%
+}
+
 @include media-query($on-laptop) {
   .footer-col-0,
   .footer-col-1,
@@ -262,6 +267,10 @@
       @include relative-font-size(1.125);
     }
   }
+}
+
+.rss-subscribe {
+  text-align: center;
 }
 
 /**
