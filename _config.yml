@@ -29,6 +29,8 @@ plugins:
   - jekyll-feed
 excerpt_separator: <!--more-->
 permalink: /:year/:month/:day/:title:output_ext
+site.disqus.shortname: syntactproject
+comments: true
 
 # Defaults
 defaults:
