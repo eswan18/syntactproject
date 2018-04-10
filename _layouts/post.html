@@ -19,6 +19,19 @@ layout: default
   <div class="post-content e-content" itemprop="articleBody">
     {{ content }}
   </div>
+
+  {%- if page.podcast -%}
+  <center>
+    <br><br>
+    Our podcast is not yet listed on iTunes, but you can still subscribe!
+    <br>
+    Add the RSS feed <a href="https://pinecast.com/feed/syntact-project">https://pinecast.com/feed/syntact-project</a> in your favorite podcast player.
+    <br><br>
+    <embed src="{{ page.podcast-link }}"/>
+    <br><br>
+  </center>
+  {%- endif -%}
+
   {%- if site.comments -%}
     {%- include disqus_comments.html -%}
   {%- endif -%}
