@@ -1,6 +1,7 @@
 ---
 title: "Sustainability: Go Big or Go Home"
 layout: post
+date: 2018-05-11
 authors:
 - Fernando Garcia
 ---
@@ -10,6 +11,7 @@ One day, the cashier placed my groceries in the bag I brought -- then before I c
 Of course, saving the individual bag’s 5.5 grams / 0.19 ounces of polyethylene would do nothing to mitigate the harmful effects of the plastic bag industry’s use of energy and material.
 Nor would the ⅓ or ½ kilogram I might save in a good year.
 However, if as a society we tried to reform our habits, what kind of positive effect might we have?
+<!--more-->
 
 Quantitative estimates of the potential benefits of certain changes in habits (specifically I looked at plastic bag usage and carpooling to school) led me to this conclusion:
 It takes *a lot* for individuals -- even if it is a majority of individuals in our society -- to change their living habits in a way that makes a meaningful impact.
