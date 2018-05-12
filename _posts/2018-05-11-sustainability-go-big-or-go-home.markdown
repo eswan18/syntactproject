@@ -33,7 +33,7 @@ Here I detail a deeper dive into how I calculated the numbers, because it a) pro
 
 **In brief**:
 
-* If half of the children who drive but do not (i.e., they are alone in the car, except for the driver, if they are not driving themselves), carpooled with one other person, each year in the U.S.
+* If half of the children who drive but do not carpool (i.e., they are alone in the car, except for the driver, if they are not driving themselves), carpooled with one other person, each year in the U.S.
 **272 million gallons of gasoline** would be saved, reducing **carbon dioxide emissions by 2.72 Megatonnes, or 5.44 billion pounds**.
 * This would reduce yearly CO<sub>2</sub> emissions in America's transportation sector by **0.14%**
 
