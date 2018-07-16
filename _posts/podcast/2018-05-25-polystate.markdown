@@ -6,6 +6,7 @@ podcast-link: https://pinecast.com/listen/d89783cb-3c9d-44a9-874a-48dd2214c7da.m
 authors:
 - Ethan Swan
 - Fernando Garcia
+excerpt: "Fernando and Ethan revive the Government Series to talk polystates and anthrostates.<br><br>"
 ---
 
 Fernando and Ethan revive the Government Series to talk polystates and anthrostates.
