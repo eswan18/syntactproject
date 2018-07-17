@@ -6,7 +6,7 @@ authors:
 - Fernando Garcia
 ---
 
-Coldplay’s classic 2000 hit “Yellow” is anchored by a 22-second guitar riff, unremarkable except perhaps in how incredibly simple it is.
+Coldplay’s classic 2000 hit [“Yellow”](https://youtu.be/yKNxeF4KMsY) is anchored by a 22-second guitar riff, unremarkable except perhaps in how incredibly simple it is.
 It contains only 5 distinct notes arranged into 8 two-note chords (a chord being a group of two or more notes played together) played in predictable pattern with no rhythmic variation.
 I am confident someone who has never played a guitar could learn to play it in about 5 minutes, and would not be surprised if a non-human primate can or has already been taught to play it.
 <!--more-->
@@ -26,20 +26,21 @@ Groups of notes that we call “consonant intervals” are consonant because of 
 They are consonant to Chicago natives, Pacific Islanders, and Martians alike.
 Cultural influences appear when we ask if consonant intervals sound “pleasant” or not.
 [This MIT article](http://news.mit.edu/2016/music-tastes-cultural-not-hardwired-brain-0713) describes research suggesting that consonance may be unrelated to music’s appeal, despite most Western listeners agreeing that consonant intervals sound pleasant.
+
 2. All that said, I believe it is still worth exploring the connection between a harmony’s (objective) mathematical structure and the (subjective) response it evokes for listeners, even though the latter may be radically different for different groups of people.
 “Yellow” has sold over half a million copies; while it may not be an “objectively” better piece of music than any other, enough people like it that there must be something appealing in its composition.
 
 3. Some might say this article has a narrow, Western/Anglo-American paradigm.
-They’d be right - that’s the music I’ve grown up with, and the song we analyze here belongs in this category.
-This narrowness may be impossible to avoid - after all, music is a subjective experience.
+They’d be right -- that’s the music I’ve grown up with, and the song we analyze here belongs in this category.
+This narrowness may be impossible to avoid -- after all, music is a subjective experience.
 It is written for culturally conditioned listeners by culturally conditioned musicians.
 While this analysis might not be universally applicable, it reveals a bit about the elaborate mechanisms that cause us to enjoy music, and reminds us of how incredibly powerful and complex our minds can be.
 
 
 Dissecting the 6 chords (of the 8, two are repeated, so there are 6 distinct chords) of Yellow’s intro reveals significant patterns in how each chord’s constituent notes differ from each other.
-Sounds are waves - rather than alternating high peaks and low troughs like an ocean’s wave, sound waves alternate between pockets of compressed air (the “peaks”), and rarefied, or expanded, air (the “troughs”).
+Sounds are waves -- rather than alternating high peaks and low troughs like an ocean’s wave, sound waves alternate between pockets of compressed air (the “peaks”), and rarefied, or expanded, air (the “troughs”).
 
-This basic sine wave represents a note - the vertical axis shows changes in the air pockets’ density as the wave travels from left to right through space.
+This basic sine wave represents a note -- the vertical axis shows changes in the air pockets’ density as the wave travels from left to right through space.
 
 ![img1](/images/physics_and_art_1.png)
 
@@ -57,7 +58,7 @@ The first two chords: F#/B and E/B -- called perfect fifth and perfect fourth in
 
 As the MIT article explains, these intervals have “perfect consonance”.
 The physical meaning of this term is that the frequencies of the notes are multiples of each other -- F# (740 Hz) and B (494 Hz) have a ratio of 3:2 between their frequencies.
-If the two waves start at the same place, after three waves of F# and two waves of B, the waves “line up” at the highlighted points of the graphs - they both have a perfectly aligned starting point (meaning they both have a pocket of air at the same time with zero compression and zero rarefaction).
+If the two waves start at the same place, after three waves of F# and two waves of B, the waves “line up” at the highlighted points of the graphs -- they both have a perfectly aligned starting point (meaning they both have a pocket of air at the same time with zero compression and zero rarefaction).
 E and B have the same property, with a 4:3 ratio.
 
 This conversation about cold, hard physics must get interrupted here by cultural and personal perception.
@@ -66,7 +67,7 @@ In Western music, these intervals play a key part of how melodies and harmonies 
 “Twinkle Twinkle Little Star” -- the first two words are sung a perfect fifth apart.
 Most people who grew up listening to Western music find these melodies pleasant (again, see the MIT article).
 And there is a very real basis to this consonance, as shown in the graphs of the sound waves.
-In fact, playing a B4 note can cause a string tuned to E or F# to vibrate seemingly spontaneously - the perfect alignment of the sound waves can cause a string to vibrate without the musician touching the second string.
+In fact, playing a B4 note can cause a string tuned to E or F# to vibrate seemingly spontaneously -- the perfect alignment of the sound waves can cause a string to vibrate without the musician touching the second string.
 Consonance exists objectively, but the key to remember is that its appeal or lack thereof is subjective.
 But also important to understand is that musicians and listeners are products of their culture, and composers make use of that fact -- hence the composers of “Yellow” beginning with intervals subjectively perceived as “strong” and “pleasant”.
 
