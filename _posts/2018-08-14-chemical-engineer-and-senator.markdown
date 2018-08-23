@@ -3,7 +3,7 @@ layout: post
 title:  "A Chemical Engineer and a Senator Walk into the Capitol"
 date:   2018-08-14
 authors:
-- Fernando Garcai
+- Fernando Garcia
 ---
 
 Why don’t the government’s policies fix gun violence? Illegal immigration? The exodus of businesses relocating to other countries? After all, we have the chance to elect 535 of the nation’s brightest minds to serve in Congress, and outfit them with staffs to help them process an incredible amount of information.
