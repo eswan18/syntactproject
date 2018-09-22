@@ -7,7 +7,6 @@ authors:
 - Ethan Swan
 - Fernando Garcia
 - Andrew Petrisin
-excerpt: "Ethan, Fernando, and new guest Andrew talk about an often overlooked but surprisingly interesting topic: mass transit.<br><br>"
 ---
 
 Ethan, Fernando, and new guest Andrew talk about an often overlooked but surprisingly interesting topic: mass transit.
