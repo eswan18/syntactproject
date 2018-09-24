@@ -305,10 +305,10 @@
  * Contributors
  */
 .contributors table {
-  table-layout: fixed;
+  table-layout: auto;
 }
 .contributors td {
-  vertical-align: top;
+  vertical-align: middle;
   overflow: hidden;
   text-overflow: wrap;
 }
