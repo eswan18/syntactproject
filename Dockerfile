@@ -1,6 +1,7 @@
 FROM ruby
 
-RUN gem install jekyll bundler
+#RUN gem install jekyll>=3.7.4 bundler
+RUN gem install bundler
 
 WORKDIR /srv/jekyll/
 
