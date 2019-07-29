@@ -28,7 +28,7 @@ We accordingly dismissed all of that as so much backward mythology and superstit
 
 The primary feeling suffusing that relationship is fear, but following closely on it is fascination: a thirst for understanding that can explain the object of our fear to us and thus provide a measure of comfort.
 However, what knowledge we do have has been slow in coming and remains incomplete.
-What we have had is not knowledge but, in the words of the Austrian economist and philosopher F.A. Hayek, [the pretense of knowledge](https://www.nobelprize.org/prizes/economic-sciences/1974/hayek/lecture/) -- a pretense which has led us tremendous errors in judgment that have endangered man and shark alike.
+What we have had is not knowledge but, in the words of the Austrian economist and philosopher F.A. Hayek, [the pretense of knowledge](https://www.nobelprize.org/prizes/economic-sciences/1974/hayek/lecture/) -- a pretense which has led us to tremendous errors in judgment that have endangered man and shark alike.
 
 *Jaws*, the masterful 1975 film in which Steven Spielberg scared the pants off the entire nation with two music notes and a handful of underwater camera angles, is often [credited](https://thefisheriesblog.com/2015/06/15/thank-you-jaws-the-upside-for-sharks-40-years-later/) with making Americans terrified of sharks.
 But with all due respect to Spielberg, whose work on that film and many others is without parallel, no horror story works without a preexisting fear to exploit.
